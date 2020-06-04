@@ -5,9 +5,6 @@
 [![travis](https://travis-ci.org/TypeCtrl/ngx-emoji-mart.svg?branch=master)](https://travis-ci.org/TypeCtrl/ngx-emoji-mart)
 [![codecov](https://img.shields.io/codecov/c/github/typectrl/ngx-emoji-mart.svg)](https://codecov.io/github/typectrl/ngx-emoji-mart)
 
-
-__DEMO__: https://typectrl.github.io/ngx-emoji-mart/  
-
 This project is a port of [emoji-mart](https://github.com/missive/emoji-mart) by missive  
 
 - [Installation](#installation)
@@ -22,7 +19,7 @@ This project is a port of [emoji-mart](https://github.com/missive/emoji-mart) by
 ## Installation
 
 ```sh
-npm install @ctrl/ngx-emoji-mart
+npm install cs-ngx-emoji
 ```
 
 ## Components
@@ -30,18 +27,18 @@ npm install @ctrl/ngx-emoji-mart
 ### Picker
 Import Module in ngModule
 ```ts
-import { PickerModule } from '@ctrl/ngx-emoji-mart'
+import { PickerModule } from 'cs-ngx-emoji';
 ```
 
 Import styles in styles.scss if using SASS
 ```scss
-@import "~@ctrl/ngx-emoji-mart/picker";
+@import "cs-ngx-emoji/picker";
 ```
 Or angular-cli can also include it via angular-cli.json
 ```
 "styles": [
   "styles.scss",
-  "../node_modules/@ctrl/ngx-emoji-mart/picker.css"
+  "../node_modules/cs-ngx-emoji/picker.css"
 ]
 ```
 
@@ -185,7 +182,7 @@ Sheets are served from [unpkg](https://unpkg.com), a global CDN that serves file
 
 ### Emoji
 ```ts
-import { EmojiModule } from '@ctrl/ngx-emoji-mart/ngx-emoji'
+import { EmojiModule } from 'cs-ngx-emoji/ngx-emoji'
 ```
 
 ```html
@@ -265,7 +262,7 @@ const customEmojis = [
 The `Picker` doesn’t have to be mounted for you to take advantage of the advanced search results.
 
 ```ts
-import { EmojiSearch } from '@ctrl/ngx-emoji-mart';
+import { EmojiSearch } from 'cs-ngx-emoji';
 class ex {
   constructor(private emojiSearch: EmojiSearch) {
     this.emojiSearch.search('christmas').map(o => o.native);
