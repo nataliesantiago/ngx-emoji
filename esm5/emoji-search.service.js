@@ -1,9 +1,9 @@
 import * as tslib_1 from "tslib";
 import { Injectable } from '@angular/core';
-import { categories, EmojiService, } from '@ctrl/ngx-emoji-mart/ngx-emoji';
+import { categories, EmojiService, } from 'cs-ngx-emoji/ngx-emoji';
 import { intersect } from './utils';
 import * as i0 from "@angular/core";
-import * as i1 from "@ctrl/ngx-emoji-mart/ngx-emoji";
+import * as i1 from "cs-ngx-emoji/ngx-emoji";
 var EmojiSearch = /** @class */ (function () {
     function EmojiSearch(emojiService) {
         var e_1, _a;

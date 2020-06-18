@@ -1,5 +1,5 @@
 import { ChangeDetectorRef, EventEmitter, OnInit } from '@angular/core';
-import { Emoji, EmojiCategory, EmojiData, EmojiEvent } from '@ctrl/ngx-emoji-mart/ngx-emoji';
+import { Emoji, EmojiCategory, EmojiData, EmojiEvent } from 'cs-ngx-emoji/ngx-emoji';
 import { EmojiFrequentlyService } from './emoji-frequently.service';
 export declare class PickerComponent implements OnInit {
     private ref;

@@ -1,5 +1,5 @@
 import { ChangeDetectorRef, EventEmitter, OnChanges } from '@angular/core';
-import { Emoji, EmojiData, EmojiService } from '@ctrl/ngx-emoji-mart/ngx-emoji';
+import { Emoji, EmojiData, EmojiService } from 'cs-ngx-emoji/ngx-emoji';
 export declare class PreviewComponent implements OnChanges {
     ref: ChangeDetectorRef;
     private emojiService;

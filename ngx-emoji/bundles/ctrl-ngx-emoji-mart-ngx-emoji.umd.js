@@ -1,6 +1,6 @@
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('@angular/common')) :
-    typeof define === 'function' && define.amd ? define('@ctrl/ngx-emoji-mart/ngx-emoji', ['exports', '@angular/core', '@angular/common'], factory) :
+    typeof define === 'function' && define.amd ? define('cs-ngx-emoji/ngx-emoji', ['exports', '@angular/core', '@angular/common'], factory) :
     (global = global || self, factory((global.ctrl = global.ctrl || {}, global.ctrl['ngx-emoji-mart'] = global.ctrl['ngx-emoji-mart'] || {}, global.ctrl['ngx-emoji-mart']['ngx-emoji'] = {}), global.ng.core, global.ng.common));
 }(this, function (exports, core, common) { 'use strict';
 

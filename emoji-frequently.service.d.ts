@@ -1,4 +1,4 @@
-import { EmojiData } from '@ctrl/ngx-emoji-mart/ngx-emoji';
+import { EmojiData } from 'cs-ngx-emoji/ngx-emoji';
 export declare class EmojiFrequentlyService {
     NAMESPACE: string;
     frequently: {

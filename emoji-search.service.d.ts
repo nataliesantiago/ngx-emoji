@@ -1,4 +1,4 @@
-import { EmojiData, EmojiService } from '@ctrl/ngx-emoji-mart/ngx-emoji';
+import { EmojiData, EmojiService } from 'cs-ngx-emoji/ngx-emoji';
 export declare class EmojiSearch {
     private emojiService;
     originalPool: any;

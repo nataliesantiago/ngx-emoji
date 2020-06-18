@@ -1,6 +1,6 @@
 import * as tslib_1 from "tslib";
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, EventEmitter, Input, Output, } from '@angular/core';
-import { EmojiService } from '@ctrl/ngx-emoji-mart/ngx-emoji';
+import { EmojiService } from 'cs-ngx-emoji/ngx-emoji';
 var PreviewComponent = /** @class */ (function () {
     function PreviewComponent(ref, emojiService) {
         this.ref = ref;

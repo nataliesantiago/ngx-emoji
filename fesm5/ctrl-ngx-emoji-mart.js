@@ -1,6 +1,6 @@
 import { __decorate, __metadata, __values, __assign, __spread } from 'tslib';
 import { Input, Output, Component, ChangeDetectionStrategy, EventEmitter, defineInjectable, Injectable, ViewChild, ElementRef, ChangeDetectorRef, inject, ViewChildren, QueryList, NgModule } from '@angular/core';
-import { EmojiService, categories as categories$1, EmojiModule } from '@ctrl/ngx-emoji-mart/ngx-emoji';
+import { EmojiService, categories as categories$1, EmojiModule } from 'cs-ngx-emoji/ngx-emoji';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 

@@ -1,5 +1,5 @@
 import { EventEmitter } from '@angular/core';
-import { EmojiCategory } from '@ctrl/ngx-emoji-mart/ngx-emoji';
+import { EmojiCategory } from 'cs-ngx-emoji/ngx-emoji';
 export declare class AnchorsComponent {
     categories: EmojiCategory[];
     color?: string;

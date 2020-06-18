@@ -2,7 +2,7 @@ import * as tslib_1 from "tslib";
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { EmojiModule } from '@ctrl/ngx-emoji-mart/ngx-emoji';
+import { EmojiModule } from 'cs-ngx-emoji/ngx-emoji';
 import { AnchorsComponent } from './anchors.component';
 import { CategoryComponent } from './category.component';
 import { PickerComponent } from './picker.component';

@@ -1,6 +1,6 @@
 {
   "name": "cs-ngx-emoji",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "bundles/ctrl-ngx-emoji-mart.umd.js",
   "scripts": {
@@ -15,5 +15,6 @@
   "license": "ISC",
   "dependencies": {
     "tslib": "^1.9.0"
-  }
+  },
+  "typings": "cs-ngx-emoji.d.ts"
 }

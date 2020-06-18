@@ -1,6 +1,6 @@
 import * as tslib_1 from "tslib";
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, ElementRef, EventEmitter, Input, Output, ViewChild, } from '@angular/core';
-import { EmojiService } from '@ctrl/ngx-emoji-mart/ngx-emoji';
+import { EmojiService } from 'cs-ngx-emoji/ngx-emoji';
 import { EmojiFrequentlyService } from './emoji-frequently.service';
 let CategoryComponent = class CategoryComponent {
     constructor(ref, emojiService, frequently) {

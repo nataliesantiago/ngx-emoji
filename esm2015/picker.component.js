@@ -1,6 +1,6 @@
 import * as tslib_1 from "tslib";
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, ElementRef, EventEmitter, Input, Output, QueryList, ViewChild, ViewChildren, } from '@angular/core';
-import { categories, } from '@ctrl/ngx-emoji-mart/ngx-emoji';
+import { categories, } from 'cs-ngx-emoji/ngx-emoji';
 import { EmojiFrequentlyService } from './emoji-frequently.service';
 import { PreviewComponent } from './preview.component';
 import { SearchComponent } from './search.component';

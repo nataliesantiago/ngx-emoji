@@ -1,5 +1,5 @@
 import { EventEmitter } from '@angular/core';
-import { Emoji } from '@ctrl/ngx-emoji-mart/ngx-emoji';
+import { Emoji } from 'cs-ngx-emoji/ngx-emoji';
 export declare class SkinComponent {
     /** currently selected skin */
     skin?: Emoji['skin'];

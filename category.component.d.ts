@@ -1,5 +1,5 @@
 import { ChangeDetectorRef, ElementRef, OnInit } from '@angular/core';
-import { Emoji, EmojiService } from '@ctrl/ngx-emoji-mart/ngx-emoji';
+import { Emoji, EmojiService } from 'cs-ngx-emoji/ngx-emoji';
 import { EmojiFrequentlyService } from './emoji-frequently.service';
 export declare class CategoryComponent implements OnInit {
     ref: ChangeDetectorRef;
